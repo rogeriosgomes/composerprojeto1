@@ -1,0 +1,17 @@
+{
+    "name": "001717/projeto1",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "001717\\Projeto1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "001717"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "2.9.1"
+    }
+}
