@@ -2,17 +2,8 @@
 
 require __DIR__.'/vendor/autoload.php';
 
+\App\Log\Monolog::gerarLog("treinaweb");
+\App\Log\Monolog::gerarLog("cursos");
 
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-
-// create a log channel
-$log = new Logger('app');
-$log->pushHandler(new StreamHandler('app.log', Logger::WARNING));
-
-// add records to the log
-$log->warning('treinaweb');
-$log->error('cursos');
-
-echo "ok";
+gerarPdf("<h1>olá mundo</h1>");
 ?>
