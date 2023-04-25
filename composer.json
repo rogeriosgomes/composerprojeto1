@@ -4,9 +4,10 @@
     "autoload": {
         "psr-4": {
             "App\\":"src"
-        }
+        },
+        "files": ["helpers/Pdf.php"]
     },
-    "files":["helpers/Pdf.php"],
+
     "authors": [
         {
             "name": "001717"
